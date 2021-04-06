@@ -10,7 +10,7 @@ gcc -o main main.c check.c printBoard.c move.c
 * Uses getch() which doesnt require Enter to be hit after every character key is pressed
 * Uses system("cls") to clear the screen
 * Only select versions of windows support escape sequence codes to output colour
-![alt text](https://imgur.com/hdVf0Jh)
+![alt text](https://imgur.com/hdVf0Jh.png)
 
 ### Linux
 You may have to compile again as the executable in the folder has been compiled on Raspberry Pi(which is arm based)
@@ -20,7 +20,7 @@ gcc -o main main.c check.c printBoard.c move.c -lm
 * Uses getchar() which requires the enter key to be hit after every input
 * Uses system("clear") to clear the screen
 * Uses Escape Sequence codes to output colour in the program
-![alt text](https://imgur.com/rAhMcPj)
+![alt text](https://imgur.com/rAhMcPj.png)
 
 ## How to Play
 
